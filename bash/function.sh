@@ -1,7 +1,11 @@
 #!/bin/bash
 
-minombre="Andres"
+#In this way we can create a simple function
+
+myname="Andres"
+
 function name {
-	echo $minombre
+	echo $myname
 }
+
 name

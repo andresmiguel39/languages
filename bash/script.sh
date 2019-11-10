@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/bin/bash
+
+# export variables in bash
 
 export variable="Hello World"
 
