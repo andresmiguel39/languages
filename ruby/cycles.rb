@@ -1,7 +1,9 @@
 #!\workspace\ruby\Ruby26-x64\bin\ruby
 
+# This is an array 
 usuari = ['jdoe', 'peter', 'mary', 'bob']
 
+# we can print over the array, full examples of how to 
 usuari.each do |u|
     puts u
 end

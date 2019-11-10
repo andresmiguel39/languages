@@ -2,20 +2,21 @@
 
 module Function
 
-def Function.inicio
-    puts "Esto es una cancion"
-#    yield "Primera estrofa: "
-    puts "esto es el fin"
-end
+    def Function.inicio
+        puts "This is a song"
+#    yield "First paragraph: "
+        puts "This is the end"
+    end
 
-#inicio do
-#    puts "esto es la mitad de la cancion"
-#end
+#   if you activate the yield part this must be uncomented
+    #inicio do
+    #    puts "This is the half of the song"
+    #end
 
-#Function.inicio { |s| puts "#{s} Esto es el coro"}
+    #Function.inicio { |s| puts "#{s} This is the coro"}
 
-def Function.hola
-    puts "hola"
-end
+    def Function.hola
+        puts "hola"
+    end
 
 end
