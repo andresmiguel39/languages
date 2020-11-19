@@ -17,4 +17,14 @@ then
       echo "\$my_var is NULL"
 else
       echo "\$my_var is NOT NULL"
-fi
+fi;
+
+# si el directorio existe 
+app_home="/home/myuser"
+if [ -d "$app_home" ]; then 
+      echo "\$app_home exists"
+else
+      echo "\$app_home NOT exists"
+fi;
+
+
