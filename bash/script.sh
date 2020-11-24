@@ -28,3 +28,7 @@ else
 fi;
 
 
+FILE=/etc/resolv.conf
+if test -f "$FILE"; then
+    echo "$FILE exists."
+fi
