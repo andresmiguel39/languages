@@ -12,3 +12,8 @@ jobs:
         run: |
           uname
           uname -a
+      - name: Python
+        run: |
+          a = "Testing"
+          print(a)
+        shell: python
